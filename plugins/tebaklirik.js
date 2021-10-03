@@ -17,7 +17,7 @@ Ketik ${usedPrefix}teli untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.tebaklirik[id] = [
-        await conn.send2Button(m.chat, caption.trim(), '© NASA BOT', 'BANTUAN', `${usedPrefix}teli`, 'NYERAH', 'nyerah'),
+        await conn.send2Button(m.chat, caption.trim(), '© KOMOSHUAI BOT', 'BANTUAN', `${usedPrefix}teli`, 'NYERAH', 'nyerah'),
         json, poin,
         setTimeout(async () => {
             if (conn.tebaklirik[id]) await conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, '© NASA BOT', 'TEBAK LIRIK', `${usedPrefix}tebaklirik`)

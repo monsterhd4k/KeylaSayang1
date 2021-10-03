@@ -32,30 +32,36 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◪ ==〔 %me 〕=>
-❏ Hai, %name!
-❏ *Bantu Donasi SeIklasnya Untuk Beli Api-Key*
-❏ Tersisa *%limit Limit*
-❏ Role *%role*
-❏ Level *%level (%exp / %maxexp)* [%xp4levelup]
-❏ *Tanggal* : *%week %weton, %date*
-❏ *Tanggal Islam* : *%dateIslamic*
-❏ *Jam* : %time*
-❏ *Uptime* : *%uptime (%muptime)*
-❏ *Database* : %rtotalreg dari %totalreg
-❏ *Channel Yt* : 
-*https://bit.ly/2XJJ3BL*
-❏ *Group WhatsApp Bot* : 
-*https://bit.ly/3sROEBj*
-❏ *Website* : 
-*https://teammarvell.wordpress.com*
+❏  \`\`\`K O M O S U H A I - B O T Z\`\`\`
+❗ _*%me*_
+╭─❏ ❗ _*INFO USER*_
+│➤ *NAMA* : *${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*
+│➤ *UANG* : *${money}*
+│➤ *LEVEL* : *${level}*
+│➤ *EXP*   : *${exp}*
+│➤ *LIMIT  : *${islimit}*
+╰─────────────────────❏
+╭─❏ ❗ _*INFO JAM*_
+│➤ *JAM*.      : *%time*
+│➤ *HARI*      : *%week %weton*
+│➤ *TANGGAL*  : *%date*
+│➤ *TGL ISLAM* : *%dateIslamic*
+╰──────────────────
+╭─❏ ❗ _*INFO BOT*_
+│➤ *NAMA OWNER* : *Asaa*
+│➤ *NOMER OWNER* : *wa.me/6285240389682*
+│➤ *TOTAL USER* : *${totalreg}*
+│➤ *UP TIME* : *${uptime}*
+│➤ *GRUP BOT* : *gakada*
+╰─────────────────────❏
+*"© K O M O S U H A I - B O T Z"*
 
 %readmore`.trimStart(),
-  header: '◪ ==〔 %category 〕=>',
-  body: '❏ %cmd %islimit %isPremium',
-  footer: '\n',
+  header: '╭─❏ ❗〔 %category 〕=>',
+  body: '│➤ %cmd %islimit %isPremium',
+  footer: '╰─────────────────────❏\n',
   after: `
-*© NASA BOT*
+*© KOMOSHUAI BOT*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {

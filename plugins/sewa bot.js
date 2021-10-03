@@ -9,11 +9,11 @@ let handler = async m => m.reply(`
 └────
 
 ┌〔  Pulsa 〕
-├ TELKOM [082264865477]
+├ TELKOM [6285240389682]
 └────
 
 ┌〔 Emoney 〕
-├ Gopay [082264865477]
+├ DANA [6285240389682]
 └────
 
 ┌〔 Penting 〕

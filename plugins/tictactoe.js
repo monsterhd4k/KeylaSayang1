@@ -39,7 +39,7 @@ Ketik *nyerah* untuk nyerah
                 mentionedJid: conn.parseMention(str)
             }
         })
-        await conn.sendButton(room.o, str, '© NASA BOT', 'NYERAH', 'nyerah', {
+        await conn.sendButton(room.o, str, '© KOMOSHUAI BOT', 'NYERAH', 'nyerah', {
             contextInfo: {
                 mentionedJid: conn.parseMention(str)
             }

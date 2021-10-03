@@ -21,7 +21,7 @@ Ketik ${usedPrefix}who untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.siapakahaku[id] = [
-       await conn.send2Button(m.chat, caption, '© NASA BOT', 'BANTUAN', '.who', 'NYERAH', 'nyerah'),
+       await conn.send2Button(m.chat, caption, '© KOMOSHUAI BOT', 'BANTUAN', '.who', 'NYERAH', 'nyerah'),
         json, poin,
         setTimeout(async () => {
             if (conn.siapakahaku[id]) await conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.data.jawaban}*`, '© rhynz', 'SIAPAKAH AKU', '.siapaaku')

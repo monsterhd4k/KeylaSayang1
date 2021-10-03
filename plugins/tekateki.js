@@ -18,7 +18,7 @@ Ketik ${usedPrefix}tete untuk bantuan
 Bonus: ${poin} XP
 `.trim()
     conn.tekateki[id] = [
-       await conn.send2Button(m.chat, caption, '© NASA BOT', 'BANTUAN', `.tete`, 'NYERAH', 'nyerah'),
+       await conn.send2Button(m.chat, caption, '© KOMOSHUAI BOT', 'BANTUAN', `.tete`, 'NYERAH', 'nyerah'),
         json, poin,
         setTimeout(async () => {
             if (conn.tekateki[id]) await conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, '© NASA BOT', 'TEKA TEKI', `.tekateki`)

@@ -1,10 +1,10 @@
 let handler = async m => m.reply(`
 ┌〔 Donasi • Pulsa 〕
-├ TELKOM [082264865477]
+├ TELKOM [6285240389682]
 └────
 
 ┌〔 Donasi • Emoney 〕
-├ Gopay [082264865477]
+├ DANA [6285240389682]
 └────
 
 ┌〔 Donasi • Link 〕

@@ -1,8 +1,8 @@
 let handler = async m => m.reply(`
 ┌─「 BELI PREMIUM 」
-│ • perhari 20k
-│ • perminggu 50k
-│ • perbulan 90k
+│ • perhari 5k
+│ • perminggu 10k
+│ • perbulan 30k
 └────
 ┌─ 「 FITUR PREMIUM」
 │ • Join Gc✓
@@ -12,7 +12,7 @@ let handler = async m => m.reply(`
 │ • DLLNya✓
 └────
 ┌─「 *OWNER BOT* 」
-│❏ 🪀 wa.me/6282264865477
+│❏ 🪀 wa.me/6285240389682
 └────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['beliprem']
