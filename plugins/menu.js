@@ -3,32 +3,26 @@ let path = require('path')
 let levelling = require('../lib/levelling')
 const defaultMenu = {
   before: `
-❏  \`\`\`K O M O S U H A I - B O T Z\`\`\`
-❗ _*%me*_
-╭─❏ ❗ _*INFO USER*_
-│➤ *NAMA* : *${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*
-│➤ *UANG* : *${money}*
-│➤ *LEVEL* : *${level}*
-│➤ *EXP*   : *${exp}*
-│➤ *LIMIT  : *${islimit}*
-╰─────────────────────❏
-╭─❏ ❗ _*INFO JAM*_
-│➤ *JAM*.      : *%time*
-│➤ *HARI*      : *%week %weton*
-│➤ *TANGGAL*  : *%date*
-│➤ *TGL ISLAM* : *%dateIslamic*
-╰──────────────────
-╭─❏ ❗ _*INFO BOT*_
-│➤ *NAMA OWNER* : *Asaa*
-│➤ *NOMER OWNER* : *wa.me/6285240389682*
-│➤ *TOTAL USER* : *${totalreg}*
-│➤ *UP TIME* : *${uptime}*
-│➤ *GRUP BOT* : *gak ada*
-╰─────────────────────❏
-*"© K O M O S U H A I - B O T Z"*
+  ◪ ==〔 %me 〕=>
+❏ Hai, %name!
+❏ *Bantu Donasi SeIklasnya Untuk Beli Api-Key*
+❏ Tersisa *%limit Limit*
+❏ Role *%role*
+❏ Level *%level (%exp / %maxexp)* [%xp4levelup]
+❏ *Tanggal* : *%week %weton, %date*
+❏ *Tanggal Islam* : *%dateIslamic*
+❏ *Jam* : %time*
+❏ *Uptime* : *%uptime (%muptime)*
+❏ *Database* : %rtotalreg dari %totalreg
+❏ *Channel Yt* : 
+*https://bit.ly/2XJJ3BL*
+❏ *Group WhatsApp Bot* : 
+*https://bit.ly/3sROEBj*
+❏ *Website* : 
+*https://teammarvell.wordpress.com*
 
 %readmore`.trimStart(),
-  header: '╭─❏ ❗〔 _*%category*_ 〕=>',
+  header: '╭─❏ ❗〔 %category 〕',
   body: '│➤ %cmd %islimit %isPremium',
   footer: '╰─────────────────────❏\n',
   after: `
@@ -141,7 +135,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
       "listMessage": {
         "title": "List Menu",
-        "description": "© KOMOSHUAI BOT",
+        "description": "© NASA BOT",
         "buttonText": "Click Disini !!",
         "listType": "SINGLE_SELECT",
         "sections": [
