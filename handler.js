@@ -565,7 +565,7 @@ global.dfail = (type, m, conn) => {
     owner: '*[❗] Owner Only*',
     mods: '*[❗] Moderator Only*',
     premium: '*[❗] Premium User Only*',
-    group: '*[❗] Group Only*,
+    group: '*[❗] Group Only*',
     private: '*[❗] Private Only*',
     admin: '*[❗] Admin Group Only*',
     botAdmin: '*[❗] Bot Admin Only*',
