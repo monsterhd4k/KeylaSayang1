@@ -1,0 +1,23 @@
+Cara Install Sc Biar Ngk Error
+Download Sc Nya Lalu Di extrak
+Trs Buka Termos/termux
+Ketik Code Di Bawah Ini Satu Persatu!!!
+
+$ termux-setup-storage
+$ cd
+$ cd storage
+$ cd downloads
+$ cd Keyla
+$ ls ( LS Kecil Semua Jadinya ls )= Gunanya Buat Liat File
+$ bash install.sh
+$ node .
+
+Dah Tinggal Scan Kalau Code Qr Tdk Muncul 
+Chat Wa.me/62822648654777 Nama KeylaCans
+
+Note: 
+Jangan Jual Sc Ini Karena Sc Ini Gratis Dari Nurutomo
+Lu Suka Recode? Recode Aja Tp Jangan Jual Kasihan Yg Laen..
+
+Thanks To:
+Nurutomo-BochilGaming-Idham-Ariffb-Jasa Apikey-Marvell-You....
