@@ -1,8 +1,8 @@
 let fs = require('fs')
-global.owner = ['62822648654777'] // Letakan nomor kamu disini
+global.owner = ['6285240389682'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
-global.player = ['62822648654777']
+global.player = ['6285240389682']
 global.APIs = { // API Prefix
   // nama: 'https://website'
   bx: 'https://bx-hunter.herokuapp.com',
@@ -28,8 +28,8 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'NASA BOT️'
-global.author = 'Keyla Cans'
+global.packname = 'KOMOSUHAI BOT️'
+global.author = 'Asaa Tamvan'
 
 global.wait = '_*tunggu..*_'
 
