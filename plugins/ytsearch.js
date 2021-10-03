@@ -19,7 +19,7 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
 `.trim(), m)
 }
 handler.help = ['ytsearch'].map(v => v + ' <query>')
-handler.tags = ['stalk']
+handler.tags = ['internet']
 handler.command = /^(ytsearch)$/i
 
 handler.exp = 0

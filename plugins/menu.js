@@ -4,27 +4,27 @@ let levelling = require('../lib/levelling')
 const defaultMenu = {
   before: `
   ◪ ==〔 %me 〕=>
-❏ Hai, %name!
-❏ *Bantu Donasi SeIklasnya Untuk Beli Api-Key*
-❏ Tersisa *%limit Limit*
-❏ Role *%role*
-❏ Level *%level (%exp / %maxexp)* [%xp4levelup]
-❏ *Tanggal* : *%week %weton, %date*
-❏ *Tanggal Islam* : *%dateIslamic*
-❏ *Jam* : %time*
-❏ *Uptime* : *%uptime (%muptime)*
-❏ *Database* : %rtotalreg dari %totalreg
-❏ *Channel Yt* : 
-*https://bit.ly/2XJJ3BL*
-❏ *Group WhatsApp Bot* : 
-*https://bit.ly/3sROEBj*
-❏ *Website* : 
-*https://teammarvell.wordpress.com*
-
+╭─❏ ❗ INFO USER
+│➤ Hai, %name!
+│➤ *Bantu Donasi SeIklasnya Untuk Beli Api-Key*
+│➤ Tersisa *%limit Limit*
+│➤ Role *%role*
+│➤ Level *%level (%exp / %maxexp)* [%xp4levelup]
+╰─────────────❏\n
+╭─❏ ❗ INFO WAKTU
+│➤ *Tanggal* : *%week %weton, %date*
+│➤ *Tanggal Islam* : *%dateIslamic*
+│➤ *Jam* : %time*
+╰─────────────❏\n
+╭─❏ ❗ INFO
+│➤ *Uptime* : *%uptime (%muptime)*
+│➤ *Database* : %rtotalreg dari %totalreg
+│➤ *Group WhatsApp Bot* : tidak ada
+╰─────────────❏\n
 %readmore`.trimStart(),
   header: '╭─❏ ❗〔 %category 〕',
   body: '│➤ %cmd %islimit %isPremium',
-  footer: '╰─────────────────────❏\n',
+  footer: '╰─────────────❏\n',
   after: `
 %me
 `,
